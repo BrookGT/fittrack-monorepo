@@ -1,24 +1,24 @@
 {
-    "name": "fittrack-monorepo",
-    "private": true,
-    "type": "module",
-    "workspaces": [
-        "apps/*",
-        "packages/*"
-    ],
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "dev:x": "npm run -w feature-x dev",
-        "dev:y": "npm run -w feature-y dev",
-        "build:x": "npm run -w feature-x build",
-        "build:y": "npm run -w feature-y build",
-        "lint:x": "npm run -w feature-x lint",
-        "lint:y": "npm run -w feature-y lint",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": ""
+  "name": "fittrack-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:x": "node init && npm run -w feature-x dev",
+    "dev:y": "node init && npm run -w feature-y dev",
+    "build:x": "node init && npm run -w feature-x build",
+    "build:y": "node init && npm run -w feature-y build",
+    "lint:x": "npm run -w feature-x lint",
+    "lint:y": "npm run -w feature-y lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
