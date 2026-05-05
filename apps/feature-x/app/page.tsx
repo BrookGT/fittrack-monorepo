@@ -44,10 +44,10 @@ export default function Home() {
             <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-6 py-12">
                 <header className="flex flex-col gap-2">
                     <p className="text-xs font-semibold uppercase tracking-[0.3em] text-zinc-400">
-                        FitTrack / Feature X
+                    FitTrack / Feature X
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900">
-                        Workout Tracker
+                    Workout Tracker
                     </h1>
                     <p className="max-w-2xl text-base text-zinc-600">
                         Log workouts, track weekly minutes, and see your
